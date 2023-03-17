@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms | Controls</title>
+    </head>
+    <body>
+        <form action="www.google.com" method="post">
+        <fieldset>
+            <legend>Your Details:</legend>
+            <label for="name">Name: <input type="text" name="name" id="name"></label><br />
+            <label for="email">Email: <input type="text" name="email" id="email"></label><br />
+        </fieldset>
+        <fieldset>
+            <legend>Your Review:</legend>
+            <label for="about">How did you hear about us?
+                <select name="about" id="about">
+                    <option value="google" selected>Google</option >
+                    <option value="twitter">Twitter</option>
+                    <option value="insta">Instagram</option>
+                    <option value="yt">Youtube</option>
+                </select>
+            </label>
+            <p>Would you visit again? <br />
+            <label for="yes"><input type="radio" name="return" id="yes" checked>Yes</label>
+            <label for="no"><input type="radio" name="return" id="no">No</label>
+            <label for="maybe"><input type="radio" name="return" id="maybe">Maybe</label>
+            </p>
+            <p><label for="comment">Comments:</label><br />
+            <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+            </p>
+            <p><input type="checkbox" name="" id="subscribe" /><label for="subscribe">Sign me up for email updates</label><br />
+            <input type="submit" name="" id="" value="Submit review">
+            </p>
+        </fieldset>
+    </form>
+    </body>
+</html>
