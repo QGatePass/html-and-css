@@ -1,0 +1,17 @@
+* {
+    padding: 10px;
+    margin: 10px;
+}
+body {
+    background-color: bisque;
+    color: white;
+}
+h1 {
+    background-color: blue;
+}
+h2 {
+    background-color: palevioletred;
+}
+p {
+    background-color: darkslategray;
+}
