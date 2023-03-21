@@ -1,0 +1,36 @@
+h1  {
+    font-family: Cooper,sans-serif;
+    color: rgb(18, 107, 223);
+}
+.hrt {
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    font-size: 1em;
+    color: royalblue;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: pink;
+}
+a:active {
+    color: red;
+}
+a:visited {
+    color: pink;
+}
+#desc:first-line {
+    font-weight: bold;
+}
+#hist {
+    color: royalblue;
+    font-family: "Kristen ITC";
+}
+#dff {
+    text-align: left;
+    line-height: 1.4em;
+}
+#end {
+    text-align: right;
+}
